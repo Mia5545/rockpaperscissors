@@ -4,7 +4,14 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
+$("button").click(function() {
+    
+    var message= $("#input").val();
+    alert(message);
+    $("#userChoice").text(message);
+    //alert('$("p").text(message)');
+      
+});
 
 
 // DOCUMENT READY FUNCTION BELOW
